@@ -563,3 +563,40 @@ nav ul li .buttn {
     color:var(--span-text);
     opacity: 1; /* Firefox */
   }
+
+/* Media queries */
+
+@media only screen and (max-width: 900px) {
+    .buttn{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+    }
+    .fas.fa-headphones{
+        display: none;
+    }
+    .canvas {
+        display: block;
+    }
+    .chatbox {
+        display: none;
+    }
+    .chat-input {
+        display: none;
+    }
+    .footer-parent {
+        display: none;
+    }
+    .agenda-topic {
+        display: none;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .logo i {
+        display: none;
+    }
+}
+
+/* Media queries */
