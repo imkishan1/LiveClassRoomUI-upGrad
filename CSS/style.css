@@ -525,6 +525,7 @@ nav ul li .buttn {
 .footer-parent .chat-input input{
     border: none;
     outline: none;
+    width: 85%;
     color: var(--span-text);
     padding-top: 10px;
     background:transparent;
@@ -577,15 +578,25 @@ nav ul li .buttn {
         right: 20px;
 
     }
+    .ppt-area{
+        width: 100%;
+    }
     .fas.fa-headphones{
         display: none;
     }
     .canvas {
         display: block;
+        width: 100%;
     }
     .chatbox {
         display: none;
+       
     }
+    .chatbox .chat-area {
+        display:none;
+
+    }
+ 
     .chat-input {
         display: none;
     }
