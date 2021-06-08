@@ -565,7 +565,11 @@ nav ul li .buttn {
   }
 
 /* Media queries */
-
+@media only screen and (min-width: 901px) {
+    #formobile{
+        display: none;
+    }
+}
 @media only screen and (max-width: 900px) {
     .buttn{
         position: fixed;
@@ -596,6 +600,12 @@ nav ul li .buttn {
     }
     .logo i {
         display: none;
+    }
+    .details {
+        display: none;
+    }
+    #formobile {
+        display: block;
     }
 }
 
