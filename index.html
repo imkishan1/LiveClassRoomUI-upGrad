@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/340a598582.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>LiveSession Clone</title>
+</head>
+<body>
+   <nav>
+       <div class="contain">
+       <div class="logo">
+           <h4>upGrad</h4>
+           <div class="vertical-line"></div>
+           <p class="agenda-topic">LPU_DS Revision Session: Python Pandas </p> <i class="fas fa-info-circle"></i>
+       </div>
+       <div class="clock">
+           <i class="bi bi-clock-fill"></i> <span id="time">12:30 pm</span>
+    </div>
+       <ul>
+           <li>Help <i class="fas fa-headphones"></i></li>
+           <li> <button class="buttn">Leave</button></li>
+       </ul>
+       </div>
+   </nav>
+
+   <div class="canvas">
+           <div class="ppt-area">
+               <div class="default-agenda">
+                <h4>LPU_DS Revision Session: Python - Pandas</h4>
+                <h6>Agenda:</h6>
+                <p class="details">Agenda: Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Dolorum, vel temporibus atque </p>
+                <h6 class="tail">Instructor</h6>
+               </div>
+            </div>
+         
+           <div class="chatbox">
+            <div class="chat-header">
+                <ul class="toggle-chat-classroom">
+                    <li class="active-class">Chat</li>
+                    <li class="faded-text">Classroom</li>
+                </ul>
+                <ul class="right-icon-btn">
+                    <li><i class="fas fa-filter"></i></li>
+                    <li><i class="bi bi-arrows-angle-contract"></i></li>
+                </ul>
+            </div>
+            <div class="chat-area">
+                <ul class="chats">
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                VP
+                            </div>
+                            <div class="chat-content">
+                                      <!-- Doubt tag -->
+                                      <div class="doubt-tag">
+                                        <div class="doubttagbutton">
+                                            <i class="bi bi-question-circle"></i> Doubt?
+                                        </div>
+                                        <div class="upvotedoubt">
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                        </div>
+                                    </div>
+                                    <!-- Doubt tag -->
+                                <span id="username">Vatsal Pandey</span> <span id="msg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eos porro.</span>
+                                <br>
+                                <span id="time">07:20 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                HR
+                            </div>
+                            <div class="chat-content">
+                                <span id="username">Hemant Raj</span> <span id="msg">Amet consectetur adipisicing elit. Harum eos porro.</span>
+                                <br>
+                                <span id="time">07:21 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                NK
+                            </div>
+                            <div class="chat-content">
+                                <span id="username">Niraj Kumar</span> <span id="msg">Harum eos porro.</span>
+                                <br>
+                                <span id="time">07:22 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                AR
+                            </div>
+                            <div class="chat-content">
+                                <!-- Doubt tag -->
+                                <div class="doubt-tag">
+                                    <div class="doubttagbutton">
+                                        <i class="bi bi-question-circle"></i> Doubt?
+                                    </div>
+                                    <div class="upvotedoubt">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                    </div>
+                                </div>
+                                <!-- Doubt tag -->
+                                <span id="username">Ankit Raj</span> <span id="msg">Hello hue hue hue tempore!.</span>
+                                <br>
+                                <span id="time">07:69 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                AK
+                            </div>
+                            <div class="chat-content">
+                                <span id="username">Aman Kumar</span> <span id="msg">Adipisicing elit. id consequuntur tempore!.</span>
+                                <br>
+                                <span id="time">07:22 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat-child">
+                        <div class="main-chat-div">
+                            <div class="dp">
+                                SK
+                            </div>
+                            <div class="chat-content">
+                                <span id="username">Saurav Kumar</span> <span id="msg">Adipisicing elit. Repellendus eum suscipit deserunt nisi maxime odio, quae dolore. In id consequuntur tempore!.</span>
+                                <br>
+                                <span id="time">07:22 PM</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="recomend-text">
+                <ul class="texts">
+                    <li class="reco-text-bg">
+                        <div class="main-ele">
+                            <h4><i class="bi bi-question-circle-fill"></i> Ask a Doubt</h4>
+                        </div>
+                    </li>
+                    <li class="reco-text-bg">
+                        <div class="main-ele other-text">
+                            <h4>Hi everyone</h4>
+                        </div>
+                    </li>
+                    <li class="reco-text-bg">
+                        <div class="main-ele other-text">
+                            <h4>Hello Folks</h4>
+                        </div>
+                    </li>
+                    <li class="reco-text-bg">
+                        <div class="main-ele other-text">
+                            <h4>Hello Folks</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+           </div>
+        </div>
+        <div class="footer-parent">
+            <div class="footer-agenda">
+                <div class="leaf">
+                    <i class="fab fa-envira"></i>
+                </div>
+                <div class="ele">
+                    <p>Made By Kisalaya Kishan</p>
+                </div>
+                <div class="palm">
+                    <i class="fas fa-fist-raised"></i>
+                </div>
+            </div>
+            <div class="chat-input">
+                <div class="input">
+           <input type="text" placeholder="Enter your message here" name="" id="">
+           <div class="send-icon">
+               <i class="fas fa-paper-plane"></i>
+           </div>
+            </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
