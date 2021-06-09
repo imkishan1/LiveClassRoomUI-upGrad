@@ -612,21 +612,24 @@ nav ul li .buttn:active{
     #formobile{
         display: none;
     }
+  
 }
 @media only screen and (max-width: 900px) {
-    .buttn{
+    nav {
         position: fixed;
-        bottom: 20px;
-        right: 20px;
-
+        top: 0;
+        z-index: 1000000;
+    }
+    .contain ul{
+        padding-left: 0px;
     }
     .canvas .ppt-area{
         display: block;
-        width: 100%
-        /* width: 100%; */
+        width: 100%;
+        height: 100vh;
     }
     .canvas .ppt-area .default-agenda {
-        margin-top: 80px;
+        margin-top: 180px;
         width: 70%;
         display: block;
     }
@@ -664,6 +667,9 @@ nav ul li .buttn:active{
         display: none;
     }
     .logo i {
+        display: none;
+    }
+    .help {
         display: none;
     }
     .details {
