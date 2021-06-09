@@ -33,15 +33,20 @@ function currentTime(){
     }
     else{
       hour = hour;
-      
+      if(hour==0)
+      {
+        hour=hour+12
+      }
+      else{
       if(hour<10)
       {
         hour = "0"+hour;
         am = 'am'
       }
-      if(min<10){
-        min = "0"+min;
-      }
+    }
+    if(min<10){
+      min = "0"+min;
+    }
     }
  
     var time1 = hour+":"+min+" "+am;
