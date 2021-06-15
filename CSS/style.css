@@ -213,7 +213,7 @@ nav ul li .buttn:active{
 
 
 .canvas .chatbox {
-    width: 30%;
+    /* width: 30%; */
     width: 450px;
     /* border: 1px solid blue; */
     /* flex: 1 1 35%; */
