@@ -195,7 +195,7 @@ nav ul li .buttn:active{
     height: 80vh;
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: flex-start;
+    justify-content: space-between;
     /* justify-content: flex-end; */
     align-items: center;
     position: relative;
@@ -491,7 +491,8 @@ nav ul li .buttn:active{
 }
 
 .footer-parent .footer-agenda {
-    width: 1100px;
+    /* width: 1100px; */
+    width: 100vw;
     height: 10vh;
     padding: 30px;
     min-width: 655px;
